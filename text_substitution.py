@@ -29,5 +29,6 @@ def replace_utf16_in_stream(ppt_path, old_str, new_str):
     print("저장:", out_path)
 
 if __name__ == "__main__":
-    ppt_file = r"C:\Users\geunh\바탕 화면\ppt_format-main\테스트.ppt"
-    replace_utf16_in_stream(ppt_file, "함근희", "***")
+    ppt_file = r"C:\경로"
+    replace_utf16_in_stream(ppt_file, "테스트", "***")
+

@@ -14,7 +14,7 @@ def replace_utf16_in_stream(ppt_path, old_str, new_str):
     old_b = old_str.encode("utf-16le")
     new_b = new_str.encode("utf-16le")
     if len(old_b) != len(new_b):
-        raise ValueError("치환 문자열은 반드시 길이가 같아야 함!")
+        raise ValueError("치환 문자열은 반드시 길이가 같아야ddd 함!")
 
     count = buf.count(old_b)
     if count > 0:
